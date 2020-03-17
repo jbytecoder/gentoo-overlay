@@ -24,7 +24,7 @@ SRC_URI="
 DESCRIPTION="Prebuilt Java JDK binaries provided by AdoptOpenJDK"
 HOMEPAGE="https://adoptopenjdk.net"
 LICENSE="GPL-2-with-classpath-exception"
-KEYWORDS="~amd64 ~arm ~arm64 ~ppc64"
+KEYWORDS="amd64 ~arm ~arm64 ~ppc64"
 IUSE="alsa cups doc examples +gentoo-vm headless-awt nsplugin selinux source webstart"
 
 RDEPEND="
